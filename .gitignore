@@ -1,0 +1,16 @@
+#OSX .DS_Store ._* .Spotlight-V100 .Trashes #Ignore WL Environments bin/ android/ iphone/ mobilewebapp/ blackberry/ ipad/ #Ignore Eclipse junk *.pydevproject .project .metadata bin
+/** tmp/** tmp/**/* *.tmp *.bak *.swp *~.nib local.properties .classpath .settings/ .loadpath # External tool builders .externalToolBuilders/ # Locally stored
+"Eclipse launch configurations" *.launch # CDT-specific .cproject # PDT-specific .buildpath #Java *.
+
+class *.jar *.war *.ear #Android *.apk *.ap_ *.dex bin/ gen/ local.properties
+If you use git, you can find useful .gitignore rules here:
+https://github.com/github/gitignore
+
+Here's what they recommend you should ignore when working with Android for example:
+https://github.com/github/gitignore/blob/master/Android.gitignore
+
+Eclipse:
+https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+
+Objective-C / Xcode:
+https://github.com/github/gitignore/blob/master/Objective-C.gitignore
